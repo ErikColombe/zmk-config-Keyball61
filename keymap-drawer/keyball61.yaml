@@ -9,8 +9,8 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - PgDn
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - PgUp
   - N
   - M
@@ -57,7 +57,7 @@ layers:
   - LEFT WIN
   - HOME
   - END
-  - SNIPE
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - $$mdi:apple-keyboard-option$$
@@ -429,7 +429,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
