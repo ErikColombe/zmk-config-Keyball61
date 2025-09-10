@@ -57,7 +57,7 @@ layers:
   - LEFT WIN
   - HOME
   - END
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - $$mdi:apple-keyboard-option$$
